@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+/* Header style */
+
+header {
+    margin: 0 5%;
+    /* border: 1px gray solid;  */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 700;
+    color: #27521d;
+    display: flex;
+    align-items: center;
+}
+#logo span {
+    color: rgb(218, 35, 35);
+}
+#logo svg {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+}
+.navbar li {
+    list-style-type: none;
+    margin: 10px;
+    /* border: 1px gray solid; */
+}
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+#logo {
+    font-size: x-large;
+    margin: 10px 30px;
+}
+
+/* Content */
+
+main {
+    overflow: auto;
+    margin: 0 7.5%  ;
+    margin-top: 40px;
+}
+.home-image {
+    margin-top: -10px;
+}
+.card {
+    display: flex;
+    /* border: 1px gray solid; */
+    border-radius: 10px;
+    padding: 30px;
+    height: 270px;
+    background-color: #20421807;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+h1 {
+    /* border: 1px gray solid; */
+}
+img {
+    border: 1px gray solid;
+    margin: 10px;
+    width: 50%;
+    border-radius: 10px;
+}
+.text {
+    width: 50%;
+    margin: 0 10px;
+}
+.text p {
+    font-size: 14px;
+    color: rgb(54, 54, 54);
+}
+.text a {
+    color: white;   
+    height: 30px;
+    border-radius: 6px;
+    /* border: 1px gray solid; */
+    font-size: 14px;
+    margin: 10px 0;
+    padding: 5px;
+    text-decoration: none;
+    background-color: #43936c;
+}
+
+/* Content */
+
+.card2 {
+    float: left;
+    border: 1px gray solid;
+    height: 700px;
+    width: 70%;
+    background-color: #20421807;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 30px 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+.card2 h2 {
+    font-size: xx-large;
+    color: #27521d;
+    /* background-color: #bcf0d7; */
+    height: auto;
+}
+.card2 h2 span {
+    color: black;
+    padding-left: 10px;
+}
+.title {
+    display: flex;    
+    align-items: center;
+}
+.city-image {
+    display: flex;
+    border: 1px gray solid;
+    width: 100%;
+    height: auto;
+}
+.city-image img {
+    display: flex;
+    height: 120px;
+    width: 210px; 
+    border: 1px gray solid;
+}
+.image-cityname {
+    border: 1px solid gray;
+}
